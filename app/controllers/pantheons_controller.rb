@@ -1,0 +1,2 @@
+class PantheonsController < ApplicationController
+end

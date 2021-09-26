@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  lifespan: MyString
+  bio: MyText
+  pantheon: one
+  school: one
+
+two:
+  name: MyString
+  lifespan: MyString
+  bio: MyText
+  pantheon: two
+  school: two
