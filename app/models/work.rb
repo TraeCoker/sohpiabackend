@@ -1,3 +1,3 @@
 class Work < ApplicationRecord
-  belongs_to :philospher
+  belongs_to :philosopher
 end

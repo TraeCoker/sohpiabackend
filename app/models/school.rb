@@ -1,5 +1,5 @@
 class School < ApplicationRecord
-    has_many :philosphers
-    has_many :works, through: :philosphers
-    has_many :quotes, through: :philosphers
+    has_many :philosophers
+    has_many :works, through: :philosophers
+    has_many :quotes, through: :philosophers
 end

@@ -1,5 +1,5 @@
 class QuoteSerializer < ActiveModel::Serializer
-  attributes :id, :passage, :philospher_id
+  attributes :id, :passage, :philosopher_id
 
-  belongs_to :philospher
+  belongs_to :philosopher
 end

@@ -9,6 +9,6 @@
 hyperborean = Pantheon.create(name: "Hyperboreans")
 stoics = School.create(name: "Stoicism", description: "suck it up, mate.")
 
-seneca = Philospher.create(name: "Seneca", school: stoics, pantheon: hyperborean, bio: "Old wise guy", lifespan: "4 bc - 65 ad")
-Quote.create(passage: "There are more things, Lucilius, that frighten us than injure us, and we suffer more in imagination than in reality.", philospher: seneca)
-Work.create(name: "De Providentia", link: "https://www.loebclassics.com/view/LCL214/1928/volume.xml", philospher: seneca)
+seneca = Philosopher.create(name: "Seneca", school: stoics, pantheon: hyperborean, bio: "Old wise guy", lifespan: "4 bc - 65 ad")
+Quote.create(passage: "There are more things, Lucilius, that frighten us than injure us, and we suffer more in imagination than in reality.", philosopher: seneca)
+Work.create(name: "De Providentia", link: "https://www.loebclassics.com/view/LCL214/1928/volume.xml", philosopher: seneca)

@@ -21,7 +21,7 @@ ActiveRecord::Schema.define(version: 2021_09_26_210742) do
     t.datetime "updated_at", precision: 6, null: false
   end
 
-  create_table "philosphers", force: :cascade do |t|
+  create_table "philosophers", force: :cascade do |t|
     t.string "name"
     t.string "lifespan"
     t.text "bio"
@@ -29,16 +29,16 @@ ActiveRecord::Schema.define(version: 2021_09_26_210742) do
     t.bigint "school_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.index ["pantheon_id"], name: "index_philosphers_on_pantheon_id"
-    t.index ["school_id"], name: "index_philosphers_on_school_id"
+    t.index ["pantheon_id"], name: "index_philosophers_on_pantheon_id"
+    t.index ["school_id"], name: "index_philosophers_on_school_id"
   end
 
   create_table "quotes", force: :cascade do |t|
     t.text "passage"
-    t.bigint "philospher_id", null: false
+    t.bigint "philosopher_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.index ["philospher_id"], name: "index_quotes_on_philospher_id"
+    t.index ["philosopher_id"], name: "index_quotes_on_philosopher_id"
   end
 
   create_table "schools", force: :cascade do |t|
@@ -51,14 +51,14 @@ ActiveRecord::Schema.define(version: 2021_09_26_210742) do
   create_table "works", force: :cascade do |t|
     t.string "name"
     t.string "link"
-    t.bigint "philospher_id", null: false
+    t.bigint "philosopher_id", null: false
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.index ["philospher_id"], name: "index_works_on_philospher_id"
+    t.index ["philosopher_id"], name: "index_works_on_philosopher_id"
   end
 
-  add_foreign_key "philosphers", "pantheons"
-  add_foreign_key "philosphers", "schools"
-  add_foreign_key "quotes", "philosphers"
-  add_foreign_key "works", "philosphers"
+  add_foreign_key "philosophers", "pantheons"
+  add_foreign_key "philosophers", "schools"
+  add_foreign_key "quotes", "philosophers"
+  add_foreign_key "works", "philosophers"
 end

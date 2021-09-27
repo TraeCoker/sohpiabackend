@@ -1,2 +1,0 @@
-class PhilosphersController < ApplicationController
-end

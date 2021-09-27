@@ -1,6 +1,6 @@
-class CreatePhilosphers < ActiveRecord::Migration[6.1]
+class CreatePhilosophers < ActiveRecord::Migration[6.1]
   def change
-    create_table :philosphers do |t|
+    create_table :philosophers do |t|
       t.string :name
       t.string :lifespan
       t.text :bio

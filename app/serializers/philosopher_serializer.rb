@@ -1,4 +1,4 @@
-class PhilospherSerializer < ActiveModel::Serializer
+class PhilosopherSerializer < ActiveModel::Serializer
   attributes :id, :name, :bio, :lifespan
 
   has_many :works

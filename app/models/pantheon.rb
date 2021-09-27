@@ -1,3 +1,3 @@
 class Pantheon < ApplicationRecord
-    has_many :philosphers
+    has_many :philosophers
 end
