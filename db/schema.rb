@@ -25,8 +25,8 @@ ActiveRecord::Schema.define(version: 2021_09_26_210742) do
     t.string "name"
     t.string "lifespan"
     t.text "bio"
-    t.bigint "pantheon_id", null: false
-    t.bigint "school_id", null: false
+    t.bigint "pantheon_id"
+    t.bigint "school_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
     t.index ["pantheon_id"], name: "index_philosophers_on_pantheon_id"
