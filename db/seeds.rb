@@ -1,10 +1,3 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the bin/rails db:seed command (or created alongside the database with db:setup).
-#
-# Examples:
-#
-#   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
-#   Character.create(name: 'Luke', movie: movies.first)
 
 hyperborean = Pantheon.create(name: "Hyperboreans")
 
@@ -98,6 +91,11 @@ Quote.create(passage: "The greatest wealth is to live content with little.", phi
 Quote.create(passage: "Be kind, for everyone you meet is fighting a hard battle.", philosopher: plato)
 Quote.create(passage: "Music is a moral law. It gives soul to the universe, wings to the mind, flight to the imagination, and charm and gaiety to life and to everything.", philosopher: plato)
 Quote.create(passage: "The first and greatest victory is to conquer yourself; to be conquered by yourself is of all things most shameful and vile.", philosopher: plato)
+
+Work.create(name: "The Republic", link: "https://www.gutenberg.org/files/1497/1497-h/1497-h.htm", philosopher: plato)
+Work.create(name: "Apology", link: "http://classics.mit.edu/Plato/apology.html", philosopher: plato)
+
+
 
 aristotle = Philosopher.create(name: "Aristotle", school: socratic, bio: "Aristotle was a Greek philosopher and polymath during the Classical period in Ancient Greece. Taught by Plato, he was the founder of the Lyceum, the Peripatetic school of philosophy, and the Aristotelian tradition. His writings cover many subjects including physics, biology, zoology, metaphysics, logic, ethics, aesthetics, poetry, theatre, music, rhetoric, psychology, linguistics, economics, politics, meteorology, geology and government. Aristotle provided a complex synthesis of the various philosophies existing prior to him. It was above all from his teachings that the West inherited its intellectual lexicon, as well as problems and methods of inquiry. As a result, his philosophy has exerted a unique influence on almost every form of knowledge in the West and it continues to be a subject of contemporary philosophical discussion.
 
