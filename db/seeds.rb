@@ -32,3 +32,35 @@ Quote.create(passage: "An unexamined life is not worth living.", philosopher: so
 Quote.create(passage: "One thing only I know, and that is that I know nothing.", philosopher: socrates)
 Quote.create(passage: "To find yourself, think for yourself.", philosopher: socrates)
 Quote.create(passage: "When the debate is over, slander becomes the tool of the loser.", philosopher: socrates)
+
+plato = Philosopher.create(name: "Plato", school: socratic, bio: "Plato was an Athenian philosopher during the Classical period in Ancient Greece, founder of the Platonist school of thought and the Academy, the first institution of higher learning in the Western world.
+
+He is widely considered one of the most important and influential individuals in human history, and the pivotal figure in the history of Ancient Greek and Western philosophy, along with his teacher, Socrates, and his most famous student, Aristotle. Plato has also often been cited as one of the founders of Western religion and spirituality. The so-called neoplatonism of philosophers such as Plotinus and Porphyry greatly influenced Christianity through Church Fathers such as Augustine. Alfred North Whitehead once noted: 'the safest general characterization of the European philosophical tradition is that it consists of a series of footnotes to Plato.'
+
+Plato was an innovator of the written dialogue and dialectic forms in philosophy. Plato is also considered the founder of Western political philosophy. His most famous contribution is the theory of Forms known by pure reason, in which Plato presents a solution to the problem of universals known as Platonism (also ambiguously called either Platonic realism or Platonic idealism). He is also the namesake of Platonic love and the Platonic solids.
+
+His own most decisive philosophical influences are usually thought to have been along with Socrates, the pre-Socratics Pythagoras, Heraclitus and Parmenides, although few of his predecessors' works remain extant and much of what we know about these figures today derives from Plato himself.[b] Unlike the work of nearly all of his contemporaries, Plato's entire body of work is believed to have survived intact for over 2,400 years. Although their popularity has fluctuated, Plato's works have consistently been read and studied.", lifespan: " 428/427 or 424/423 – 348/347 BC")
+
+Quote.create(passage: "Thinking: the talking of the soul with itself.", philosopher: plato)
+Quote.create(passage: "The greatest wealth is to live content with little.", philosopher: plato)
+Quote.create(passage: "Be kind, for everyone you meet is fighting a hard battle.", philosopher: plato)
+Quote.create(passage: "Music is a moral law. It gives soul to the universe, wings to the mind, flight to the imagination, and charm and gaiety to life and to everything.", philosopher: plato)
+Quote.create(passage: "The first and greatest victory is to conquer yourself; to be conquered by yourself is of all things most shameful and vile.", philosopher: plato)
+
+aristotle = Philosopher.create(name: "Aristotle", school: socratic, bio: "Aristotle was a Greek philosopher and polymath during the Classical period in Ancient Greece. Taught by Plato, he was the founder of the Lyceum, the Peripatetic school of philosophy, and the Aristotelian tradition. His writings cover many subjects including physics, biology, zoology, metaphysics, logic, ethics, aesthetics, poetry, theatre, music, rhetoric, psychology, linguistics, economics, politics, meteorology, geology and government. Aristotle provided a complex synthesis of the various philosophies existing prior to him. It was above all from his teachings that the West inherited its intellectual lexicon, as well as problems and methods of inquiry. As a result, his philosophy has exerted a unique influence on almost every form of knowledge in the West and it continues to be a subject of contemporary philosophical discussion.
+
+Little is known about his life. Aristotle was born in the city of Stagira in Northern Greece. His father, Nicomachus, died when Aristotle was a child, and he was brought up by a guardian. At seventeen or eighteen years of age he joined Plato's Academy in Athens and remained there until the age of thirty-seven (c. 347 BC). Shortly after Plato died, Aristotle left Athens and, at the request of Philip II of Macedon, tutored Alexander the Great beginning in 343 BC. He established a library in the Lyceum which helped him to produce many of his hundreds of books on papyrus scrolls. Though Aristotle wrote many elegant treatises and dialogues for publication, only around a third of his original output has survived, none of it intended for publication.
+
+Aristotle's views profoundly shaped medieval scholarship. The influence of physical science extended from Late Antiquity and the Early Middle Ages into the Renaissance, and were not replaced systematically until the Enlightenment and theories such as classical mechanics were developed. Some of Aristotle's zoological observations found in his biology, such as on the hectocotyl (reproductive) arm of the octopus, were disbelieved until the 19th century. He also influenced Judeo-Islamic philosophies (800–1400) during the Middle Ages, as well as Christian theology, especially the Neoplatonism of the Early Church and the scholastic tradition of the Catholic Church. Aristotle was revered among medieval Muslim scholars as 'The First Teacher', and among medieval Christians like Thomas Aquinas as simply 'The Philosopher', while the poet Dante called him 'the master of those who know'. His works contain the earliest known formal study of logic, and were studied by medieval scholars such as Peter Abelard and John Buridan.
+
+Aristotle's influence on logic continued well into the 19th century. In addition, his ethics, though always influential, gained renewed interest with the modern advent of virtue ethics.
+
+Aristotle has been called 'the father of logic', 'the father of biology', 'the father of political science', 'the father of zoology', 'the father of embryology', 'the father of natural law', 'the father of scientific method', 'the father of rhetoric', 'the father of psychology', 'the father of realism', 'the father of criticism', 'the father of individualism', 'the father of teleology', and 'the father of meteorology'.", lifespan: "384–322 BC")
+
+
+Quote.create(passage: "It is the mark of an educated mind to be able to entertain a thought without accepting it.", philosopher: aristotle)
+Quote.create(passage: "A friend to all is a friend to none.", philosopher: aristotle)
+Quote.create(passage: "Pleasure in the job puts perfection in the work.", philosopher: aristotle)
+Quote.create(passage: "It is the mark of an educated mind to be able to entertain a thought without accepting it.", philosopher: aristotle)
+Quote.create(passage: "The whole is more than the sum of its parts.", philosopher: aristotle)
+Quote.create(passage: "The law is reason, free from passion.", philosopher: aristotle)
