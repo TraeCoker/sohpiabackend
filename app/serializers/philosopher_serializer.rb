@@ -3,5 +3,6 @@ class PhilosopherSerializer < ActiveModel::Serializer
 
   has_many :works
   has_many :quotes 
+  has_many :pantheons
   belongs_to :school 
 end
