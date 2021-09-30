@@ -1,5 +1,5 @@
 class PhilosopherSerializer < ActiveModel::Serializer
-  attributes :id, :name, :bio, :lifespan
+  attributes :id, :name, :bio, :lifespan, :image_url
 
   has_many :works
   has_many :quotes 
