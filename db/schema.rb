@@ -10,10 +10,17 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2021_09_26_210742) do
+ActiveRecord::Schema.define(version: 2021_09_30_223054) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "pantheon_philosophers", force: :cascade do |t|
+    t.integer "pantheon_id"
+    t.integer "philosopher_id"
+    t.datetime "created_at", precision: 6, null: false
+    t.datetime "updated_at", precision: 6, null: false
+  end
 
   create_table "pantheons", force: :cascade do |t|
     t.string "name"
@@ -25,11 +32,10 @@ ActiveRecord::Schema.define(version: 2021_09_26_210742) do
     t.string "name"
     t.string "lifespan"
     t.text "bio"
-    t.bigint "pantheon_id"
     t.bigint "school_id"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
-    t.index ["pantheon_id"], name: "index_philosophers_on_pantheon_id"
+    t.string "image_url"
     t.index ["school_id"], name: "index_philosophers_on_school_id"
   end
 
@@ -57,7 +63,6 @@ ActiveRecord::Schema.define(version: 2021_09_26_210742) do
     t.index ["philosopher_id"], name: "index_works_on_philosopher_id"
   end
 
-  add_foreign_key "philosophers", "pantheons"
   add_foreign_key "philosophers", "schools"
   add_foreign_key "quotes", "philosophers"
   add_foreign_key "works", "philosophers"

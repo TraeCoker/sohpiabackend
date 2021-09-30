@@ -4,7 +4,6 @@ class CreatePhilosophers < ActiveRecord::Migration[6.1]
       t.string :name
       t.string :lifespan
       t.text :bio
-      t.belongs_to :pantheon, null: true, foreign_key: true
       t.belongs_to :school, null: true, foreign_key: true
 
       t.timestamps

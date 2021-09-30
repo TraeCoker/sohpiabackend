@@ -1,3 +1,4 @@
 class Pantheon < ApplicationRecord
-    has_many :philosophers
+    has_many :pantheon_philosophers
+    has_many :philosophers, through: :pantheon_philosophers
 end
