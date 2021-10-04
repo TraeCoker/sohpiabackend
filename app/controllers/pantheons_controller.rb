@@ -8,6 +8,11 @@ class PantheonsController < ApplicationController
         end 
     end 
 
+    def index
+        pantheons = Pantheon.all 
+
+        render json: pantheons 
+    end 
 
     private 
 
