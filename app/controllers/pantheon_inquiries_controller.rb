@@ -1,0 +1,2 @@
+class PantheonInquiriesController < ApplicationController
+end

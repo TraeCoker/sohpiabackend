@@ -1,3 +1,4 @@
 class Inquiry < ApplicationRecord
-    belongs_to :pantheon
+    has_many :pantheon_inquiries
+    has_many :pantheons, through: :pantheon_inquiries
 end

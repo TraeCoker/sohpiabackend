@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :pantheon_inquiries
   resources :inquiries
   resources :pantheon_philosophers
   resources :works
