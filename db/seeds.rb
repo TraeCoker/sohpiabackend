@@ -1,5 +1,6 @@
+Inquiry.create()
 
-hyperborean = Pantheon.create(name: "Hyperboreans")
+
 
 pre_socratic = School.create(name: "Pre-Socratic", description: "Pre-Socratic philosophy, also known as early Greek philosophy, is ancient Greek philosophy before Socrates. Pre-Socratic philosophers were mostly interested in cosmology, the beginning and the substance of the universe, but the inquiries of these early philosophers spanned the workings of the natural world as well as human society, ethics, and religion. They sought explanations based on natural law rather than the actions of gods. Their work and writing has been almost entirely lost. Knowledge of their views comes from testimonia, i.e. later authors' discussions of the work of pre-Socratics. Philosophy found fertile ground in the ancient Greek world because of the close ties with neighboring civilizations and the rise of autonomous civil entities, poleis.
 
