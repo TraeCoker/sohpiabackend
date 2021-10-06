@@ -1,5 +1,13 @@
-Inquiry.create()
-
+Inquiry.create(question: "What harsh truths do you prefer to ignore?")
+Inquiry.create(question: "Is free will real or just an illusion?")
+Inquiry.create(question: "Is there a meaning to life? If so, what is it?")
+Inquiry.create(question: "Where is the line between art and not art?")
+Inquiry.create(question: "What should be the goal of humanity?")
+Inquiry.create(question: "Does fate exist? If so, do we have free will?")
+Inquiry.create(question: "What does it mean to live a good life?")
+Inquiry.create(question: "Why do we dream?")
+Inquiry.create(question: "Where does your self-worth come from?")
+Inquiry.create(question: "How will humans as a species go extinct?")
 
 
 pre_socratic = School.create(name: "Pre-Socratic", description: "Pre-Socratic philosophy, also known as early Greek philosophy, is ancient Greek philosophy before Socrates. Pre-Socratic philosophers were mostly interested in cosmology, the beginning and the substance of the universe, but the inquiries of these early philosophers spanned the workings of the natural world as well as human society, ethics, and religion. They sought explanations based on natural law rather than the actions of gods. Their work and writing has been almost entirely lost. Knowledge of their views comes from testimonia, i.e. later authors' discussions of the work of pre-Socratics. Philosophy found fertile ground in the ancient Greek world because of the close ties with neighboring civilizations and the rise of autonomous civil entities, poleis.
