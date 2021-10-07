@@ -4,7 +4,7 @@ class PantheonsController < ApplicationController
         if pantheon.save 
             render json: pantheon
         else 
-            render json: {error: "Save failed"}
+            render json: {error: pantheon.errors}
         end 
     end 
 
