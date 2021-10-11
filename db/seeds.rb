@@ -163,7 +163,7 @@ Quote.create(passage: "Many fires burn below the surface.", philosopher: empedoc
 
 
 
-socratic = School.create(name: "Socratic/Platonist", focus: "The theory of forms, as well as a threefold division of philosophy into dailectic, ethics, and physics", span:"469 BCE", image_url:"https://cdn.thecollector.com/wp-content/uploads/2020/11/socrates-death-jacques-louis-david-metropolitan-museum-1.jpg",  description: "The Classical period of ancient Greek philosophy centers on Socrates and the two generations of students following him.
+socratic = School.create(name: "Socratic/Platonism", focus: "The theory of forms, as well as a threefold division of philosophy into dailectic, ethics, and physics", span:"469 BCE", image_url:"https://cdn.thecollector.com/wp-content/uploads/2020/11/socrates-death-jacques-louis-david-metropolitan-museum-1.jpg",  description: "The Classical period of ancient Greek philosophy centers on Socrates and the two generations of students following him.
 
     Socrates experienced a life-changing event when his friend, Chaerephon visited the Oracle of Delphi where the Pythia told him that no one in Athens was wiser than Socrates. Learning of this, Socrates subsequently spent much of his life questioning anyone in Athens who would engage him, in order to investigate the Pithia's claim.[12] Socrates developed a critical approach, now called the Socratic method, to examine people's views. He focused on issues of human life: eudaimonia, justice, beauty, truth, and virtue. Although Socrates wrote nothing himself, two of his disciples, Plato and Xenophon, wrote about some of his conversations, although Plato also deployed Socrates as a fictional character in some of his dialogues. These Socratic dialogues display the Socratic method being applied to examine philosophical problems.
     
@@ -228,6 +228,70 @@ Quote.create(passage: "The law is reason, free from passion.", philosopher: aris
 
 
 
+stoics = School.create(name: "Stoics", focus: "Practical application of previous thought. Virtue is good, vice is bad, everything else in the world is indifferent.", span: "310 BCE - 525 AD", image_url: "https://www.historytoday.com/sites/default/files/2020-09/Seneca-lead.jpg", description: "Stoicism is a school of Hellenistic philosophy founded by Zeno of Citium in Athens in the early 3rd century BC. It is a philosophy of personal ethics informed by its system of logic and its views on the natural world. According to its teachings, as social beings, the path to eudaimonia (happiness, or blessedness) is found in accepting the moment as it presents itself, by not allowing oneself to be controlled by the desire for pleasure or by the fear of pain, by using one's mind to understand the world and to do one's part in nature's plan, and by working together and treating others fairly and justly.
 
+The Stoics are especially known for teaching that 'virtue is the only good' for human beings, and those external things—such as health, wealth, and pleasure—are not good or bad in themselves (adiaphora), but have value as 'material for virtue to act upon'. Alongside Aristotelian ethics, the Stoic tradition forms one of the major founding approaches to virtue ethics. The Stoics also held that certain destructive emotions resulted from errors of judgment, and they believed people should aim to maintain a will (called prohairesis) that is 'in accordance with nature'. Because of this, the Stoics thought the best indication of an individual's philosophy was not what a person said but how a person behaved. To live a good life, one had to understand the rules of the natural order since they thought everything was rooted in nature.
 
+Many Stoics—such as Seneca and Epictetus—emphasized that because 'virtue is sufficient for happiness', a sage would be emotionally resilient to misfortune. This belief is similar to the meaning of the phrase 'stoic calm', though the phrase does not include the traditional Stoic views that only a sage can be considered truly free and that all moral corruptions are equally vicious.
 
+Stoicism flourished throughout the Roman and Greek world until the 3rd century AD, and among its adherents was Emperor Marcus Aurelius. It experienced a decline after Christianity became the state religion in the 4th century AD. Since then it has seen revivals, notably in the Renaissance (Neostoicism) and in the contemporary era (modern Stoicism)." )
+
+zeno = Philosopher.create(name: "Zeno of Citium", school: stoics, lifespan: " c. 334 – c. 262 BC)", image_url: "https://upload.wikimedia.org/wikipedia/commons/b/bc/Paolo_Monti_-_Servizio_fotografico_%28Napoli%2C_1969%29_-_BEIC_6353768.jpg", bio: "Zeno of Citium (/ˈziːnoʊ/; Koinē Greek: Ζήνων ὁ Κιτιεύς, Zēnōn ho Kitieus; c. 334 – c. 262 BC) was a Hellenistic philosopher from Citium (Κίτιον, Kition), Cyprus. Zeno was the founder of the Stoic school of philosophy, which he taught in Athens from about 300 BC. Based on the moral ideas of the Cynics, Stoicism laid great emphasis on goodness and peace of mind gained from living a life of virtue in accordance with nature. It proved very popular, and flourished as one of the major schools of philosophy from the Hellenistic period through to the Roman era, and enjoyed revivals in the Renaissance as Neostoicism and in the current era as Modern Stoicism.")
+
+Quote.create(passage: "Better to trip with the feet than with the tongue", philosopher: zeno)
+Quote.create(passage: "We have two ears and one mouth, so we should listen more than we say.", philosopher: zeno)
+Quote.create(passage: "If you lay violent hands on me, you’ll have my body, but my mind will remain with Stilpo.", philosopher: zeno)
+Quote.create(passage: "Happiness is a good flow of life.", philosopher: zeno)
+Quote.create(passage: "Well-being is realized by small steps, but is truly no small thing.", philosopher: zeno)
+Quote.create(passage: "A bad feeling is a commotion of the mind repugnant to reason, and against nature.", philosopher: zeno)
+
+seneca = Philosopher.create(name: "Seneca", school: stoics, lifespan: "4 BC – AD 65", image_url: "https://www.laphamsquarterly.org/sites/default/files/styles/tall_rectangle_custom_user_large_2x/public/images/contributor/seneca_360x450_0.jpg?itok=G2LTcJTv&timestamp=1410448935", bio: "Lucius Annaeus Seneca the Younger (/ˈsɛnɪkə/; c. 4 BC – AD 65), usually known as Seneca, was a Roman Stoic philosopher, statesman, dramatist, and in one work, satirist, from the post-Augustan age of Latin literature.
+
+Seneca was born in Cordoba in Hispania, and raised in Rome, where he was trained in rhetoric and philosophy. His father was Seneca the Elder, his elder brother was Lucius Junius Gallio Annaeanus, and his nephew was the poet Lucan. In AD 41, Seneca was exiled to the island of Corsica under emperor Claudius, but was allowed to return in 49 to become a tutor to Nero. When Nero became emperor in 54, Seneca became his advisor and, together with the praetorian prefect Sextus Afranius Burrus, provided competent government for the first five years of Nero's reign. Seneca's influence over Nero declined with time, and in 65 Seneca was forced to take his own life for alleged complicity in the Pisonian conspiracy to assassinate Nero, in which he was likely to have been innocent. His stoic and calm suicide has become the subject of numerous paintings.
+
+As a writer Seneca is known for his philosophical works, and for his plays, which are all tragedies. His prose works include a dozen essays and one hundred twenty-four letters dealing with moral issues. These writings constitute one of the most important bodies of primary material for ancient Stoicism. As a tragedian, he is best known for plays such as his Medea, Thyestes, and Phaedra. Seneca's influence on later generations is immense—during the Renaissance he was 'a sage admired and venerated as an oracle of moral, even of Christian edification; a master of literary style and a model [for] dramatic art.'")
+
+Quote.create(passage: "There are more things, Lucilius, that frighten us than injure us, and we suffer more in imagination than in reality.", philosopher: seneca)
+Quote.create(passage: "Luck is what happens when preparation meets opportunity.", philosopher: seneca)
+Quote.create(passage: "Fate leads the willing, and drags along the reluctant.", philosopher: seneca)
+Quote.create(passage: "Every new beginning comes from some other beginning's end.", philosopher: seneca)
+Quote.create(passage: "Sometimes even to live is an act of courage.", philosopher: seneca)
+Quote.create(passage: "All cruelty springs from weakness.", philosopher: seneca)
+Quote.create(passage: "Time heals what reason cannot.", philosopher: seneca)
+Quote.create(passage: "The greatest remedy for anger is delay.", philosopher: seneca)
+Quote.create(passage: "Religion is regarded by the common people as true, by the wise as false, and by the rulers as useful.", philosopher: seneca)
+Quote.create(passage: "If one does not know to which port one is sailing, no wind is favorable.", philosopher: seneca)
+
+epictetus = Philosopher.create(name: "Epictetus", school: stoics, lifespan: "c. 50 – c. 135 AD", image_url: "https://upload.wikimedia.org/wikipedia/commons/0/00/Epicteti_Enchiridion_Latinis_versibus_adumbratum_%28Oxford_1715%29_frontispiece.jpg", bio: "Epictetus (/ˌɛpɪkˈtiːtəs/; Greek: Ἐπίκτητος, Epíktētos; c. 50 – c. 135 AD) was a Greek Stoic philosopher. He was born a slave at Hierapolis, Phrygia (present day Pamukkale, Turkey) and lived in Rome until his banishment, when he went to Nicopolis in northwestern Greece for the rest of his life. His teachings were written down and published by his pupil Arrian in his Discourses and Enchiridion.
+
+Epictetus taught that philosophy is a way of life and not just a theoretical discipline. To Epictetus, all external events are beyond our control; we should accept whatever happens calmly and dispassionately. However, individuals are responsible for their own actions, which they can examine and control through rigorous self-discipline.
+
+Epictetus gave European scholars of the Enlightenment an example of a system of ethics that was secular, based not on God's law but on reason and observation of the natural world.")
+
+Quote.create(passage: "If you want to improve, be content to be thought foolish and stupid.", philosopher: epictetus)
+Quote.create(passage: "Wealth consists not in having great possessions, but in having few wants.", philosopher: epictetus)
+Quote.create(passage: "No man is free who is not master of himself.", philosopher: epictetus)
+Quote.create(passage: "Men are disturbed not by things, but by the view which they take of them.", philosopher: epictetus)
+Quote.create(passage: "It's not what happens to you, but how you react to it that matters.", philosopher: epictetus)
+Quote.create(passage: "First say to yourself what you would be; and then do what you have to do.", philosopher: epictetus)
+Quote.create(passage: "The key is to keep company only with people who uplift you, whose presence calls forth your best.", philosopher: epictetus)
+Quote.create(passage: "It is impossible for a man to learn what he thinks he already knows.", philosopher: epictetus)
+Quote.create(passage: "There is only one way to happiness and that is to cease worrying about things which are beyond the power of our will.", philosopher: epictetus)
+
+marcus = Philosopher.create(name: "Marcus Aurelius", school: stoics, lifespan: "26 April 121 – 17 March 180", image_url: "https://upload.wikimedia.org/wikipedia/commons/3/33/L%27Image_et_le_Pouvoir_-_Buste_cuirass%C3%A9_de_Marc_Aur%C3%A8le_ag%C3%A9_-_3.jpg", bio: "Marcus Aurelius Antoninus (/ɔːˈriːliəs/ ə-REE-lee-əs; 26 April 121 – 17 March 180) was a Roman emperor from 161 to 180 and a Stoic philosopher. He was the last of the rulers known as the Five Good Emperors (a term coined some 13 centuries later by Niccolò Machiavelli), and the last emperor of the Pax Romana (27 BC to 180 AD), an age of relative peace and stability for the Roman Empire. He served as Roman consul in 140, 145, and 161.
+
+Marcus was born during the reign of Hadrian to the emperor's nephew, the praetor Marcus Annius Verus, and the heiress Domitia Calvilla. His father died when he was three, and his mother and grandfather raised Marcus. After Hadrian's adoptive son, Aelius Caesar, died in 138, the emperor adopted Marcus' uncle Antoninus Pius as his new heir. In turn, Antoninus adopted Marcus and Lucius, the son of Aelius. Hadrian died that year and Antoninus became emperor. Now heir to the throne, Marcus studied Greek and Latin under tutors such as Herodes Atticus and Marcus Cornelius Fronto. He married Antoninus' daughter Faustina in 145.
+
+After Antoninus died in 161, Marcus acceded to the throne alongside his adoptive brother, who reigned under the name Lucius Verus. Under Marcus' rule, the Roman Empire witnessed heavy military conflict. In the East, the Romans fought successfully with a revitalized Parthian Empire and the rebel Kingdom of Armenia. Marcus defeated the Marcomanni, Quadi, and Sarmatian Iazyges in the Marcomannic Wars; however, these and other Germanic peoples began to represent a troubling reality for the Empire. He modified the silver purity of the Roman currency, the denarius. The persecution of Christians in the Roman Empire appears to have increased during Marcus' reign, but his involvement in this is unknown. The Antonine Plague broke out in 165 or 166 and devastated the population of the Roman Empire, causing the deaths of five to ten million people. Lucius Verus may have died from the plague in 169.
+
+Unlike some of his predecessors, Marcus chose not to adopt an heir. His children included Lucilla, who married Lucius, and Commodus, whose succession after Marcus has been a subject of debate among both contemporary and modern historians. The Column and Equestrian Statue of Marcus Aurelius still stand in Rome, where they were erected in celebration of his military victories. Meditations, the writings of 'the philosopher' – as contemporary biographers called Marcus, are a significant source of the modern understanding of ancient Stoic philosophy. They have been praised by fellow writers, philosophers, monarchs, and politicians centuries after his death.")
+
+Quote.create(passage: "You have power over your mind - not outside events. Realize this, and you will find strength.", philosopher: marcus)
+Quote.create(passage: "Death smiles at us all, but all a man can do is smile back.", philosopher: marcus)
+Quote.create(passage: "Waste no more time arguing about what a good man should be. Be one.", philosopher: marcus)
+Quote.create(passage: "It never ceases to amaze me: we all love ourselves more than other people, but care more about their opinions than our own.", philosopher: marcus)
+Quote.create(passage: "The universe is change; our life is what our thoughts make it.", philosopher: marcus)
+Quote.create(passage: "Accept the things to which fate binds you, and love the people with whom fate brings you together, but do so with all your heart.", philosopher: marcus)
+Quote.create(passage: "Never let the future disturb you. You will meet it, if you have to, with the same weapons of reason which today arm you against the present.", philosopher: marcus)
+Quote.create(passage: "Love nothing but that which comes to you woven in the pattern of your destiny. For what could more aptly fit your needs?", philosopher: marcus)
+Quote.create(passage: "The soul becomes dyed with the color of its thoughts.", philosopher: marcus)
