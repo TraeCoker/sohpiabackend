@@ -295,3 +295,48 @@ Quote.create(passage: "Accept the things to which fate binds you, and love the p
 Quote.create(passage: "Never let the future disturb you. You will meet it, if you have to, with the same weapons of reason which today arm you against the present.", philosopher: marcus)
 Quote.create(passage: "Love nothing but that which comes to you woven in the pattern of your destiny. For what could more aptly fit your needs?", philosopher: marcus)
 Quote.create(passage: "The soul becomes dyed with the color of its thoughts.", philosopher: marcus)
+
+epicureanism = School.create(name: "Epicureanism", focus: "Belief in atoms, materialistic metaphysics, empiricist epistemology, hedonistic ethics", span: "342 BCE, 1417-1481", image_url: "https://miro.medium.com/max/1500/1*hIw-AmQHaqEWDwHTxoNW3Q@2x.jpeg", description: "Epicureanism is a system of philosophy founded around 307 BC based upon the teachings of the ancient Greek philosopher Epicurus. Epicureanism was originally a challenge to Platonism. Later its main opponent became Stoicism.
+
+    Few writings by Epicurus have survived. However, there are independent attestations of his ideas from his later disciples. Some scholars consider the epic poem De rerum natura (Latin for On the Nature of Things) by Lucretius to present in one unified work the core arguments and theories of Epicureanism. Many of the scrolls unearthed at the Villa of the Papyri at Herculaneum are Epicurean texts. At least some are thought to have belonged to the Epicurean philosopher Philodemus. Epicurus also had a wealthy 2nd c. AD disciple, Diogenes of Oenoanda, who had a portico wall inscribed with tenets of the philosophy erected in Oenoanda, Lycia (present day Turkey).
+    
+    Epicurus was an atomic materialist, following in the steps of Democritus. His materialism led him to a general attack on superstition and divine intervention. Following the Cyrenaic philosopher Aristippus, Epicurus believed that the greatest good was to seek modest, sustainable pleasure in the form of a state of ataraxia (tranquility and freedom from fear) and aponia (the absence of bodily pain) through knowledge of the workings of the world and limiting desires. Correspondingly, Epicurus and his followers generally withdrew from politics because it could lead to frustrations and ambitions which can directly conflict with the Epicurean pursuit for peace of mind and virtues.
+    
+    Although Epicureanism is a form of hedonism insofar as it declares pleasure to be its sole intrinsic goal, the concept that the absence of pain and fear constitutes the greatest pleasure, and its advocacy of a simple life, make it very different from 'hedonism' as colloquially understood.
+    
+    Epicureanism flourished in the Late Hellenistic era and during the Roman era, and many Epicurean communities were established, such as those in Antiochia, Alexandria, Rhodes, and Herculaneum. By the late 3rd century CE Epicureanism all but died out, being opposed by other philosophies (mainly Neoplatonism) that were now in the ascendant. Interest in Epicureanism was resurrected in the Age of Enlightenment and continues in the modern era." )
+
+epicurus = Philosopher.create(name: "Epicurus", school: epicureanism, lifespan: "341–270 BC", image_url: "https://images.fineartamerica.com/images-medium-large/epicurus-343-270-bc-granger.jpg", bio: "Epicureanism is a system of philosophy founded around 307 BC based upon the teachings of the ancient Greek philosopher Epicurus. Epicureanism was originally a challenge to Platonism. Later its main opponent became Stoicism.
+
+    Few writings by Epicurus have survived. However, there are independent attestations of his ideas from his later disciples. Some scholars consider the epic poem De rerum natura (Latin for On the Nature of Things) by Lucretius to present in one unified work the core arguments and theories of Epicureanism. Many of the scrolls unearthed at the Villa of the Papyri at Herculaneum are Epicurean texts. At least some are thought to have belonged to the Epicurean philosopher Philodemus. Epicurus also had a wealthy 2nd c. AD disciple, Diogenes of Oenoanda, who had a portico wall inscribed with tenets of the philosophy erected in Oenoanda, Lycia (present day Turkey).
+    
+    Epicurus was an atomic materialist, following in the steps of Democritus. His materialism led him to a general attack on superstition and divine intervention. Following the Cyrenaic philosopher Aristippus, Epicurus believed that the greatest good was to seek modest, sustainable pleasure in the form of a state of ataraxia (tranquility and freedom from fear) and aponia (the absence of bodily pain) through knowledge of the workings of the world and limiting desires. Correspondingly, Epicurus and his followers generally withdrew from politics because it could lead to frustrations and ambitions which can directly conflict with the Epicurean pursuit for peace of mind and virtues.
+    
+    Although Epicureanism is a form of hedonism insofar as it declares pleasure to be its sole intrinsic goal, the concept that the absence of pain and fear constitutes the greatest pleasure, and its advocacy of a simple life, make it very different from 'hedonism' as colloquially understood.
+    
+    Epicureanism flourished in the Late Hellenistic era and during the Roman era, and many Epicurean communities were established, such as those in Antiochia, Alexandria, Rhodes, and Herculaneum. By the late 3rd century CE Epicureanism all but died out, being opposed by other philosophies (mainly Neoplatonism) that were now in the ascendant. Interest in Epicureanism was resurrected in the Age of Enlightenment and continues in the modern era." )
+
+Quote.create(passage: "Do not spoil what you have by desiring what you have not; remember that what you now have was once among the things you only hoped for.", philosopher: epicurus)
+Quote.create(passage: "Nothing is enough for the man to whom enough is too little.", philosopher: epicurus)
+Quote.create(passage: "It is not so much our friends' help that helps us as the confident knowledge that they will help us.", philosopher: epicurus)
+Quote.create(passage: "You don't develop courage by being happy in your relationships everyday. You develop it by surviving difficult times and challenging adversity.", philosopher: epicurus)
+Quote.create(passage: "Not what we have But what we enjoy, constitutes our abundance.", philosopher: epicurus)
+Quote.create(passage: "Pleasure is the beginning and the end of living happily.", philosopher: epicurus)
+Quote.create(passage: "I never desired to please the rabble. What pleased them, I did not learn; and what I knew was far removed from their understanding.", philosopher: epicurus)
+Quote.create(passage: "The greater the difficulty, the more the glory in surmounting it.", philosopher: epicurus)
+Quote.create(passage: "The man least dependent upon the morrow goes to meet the morrow most cheerfully.", philosopher: epicurus)
+
+lucretius = Philosopher.create(name: "Lucretius", school: epicureanism, lifespan: "c. 99 – c. 55 BC", image_url: "https://upload.wikimedia.org/wikipedia/commons/2/26/Lucretius1.png", bio: "Titus Lucretius Carus (/ˈtaɪtəs luːˈkriːʃəs/ TY-təs loo-KREE-shəs, Latin: [ˈtɪtʊs lʊˈkreːtɪ.ʊs ˈkaːrʊs]; c. 99 – c. 55 BC) was a Roman poet and philosopher. His only known work is the philosophical poem De rerum natura, a didactic work about the tenets and philosophy of Epicureanism, and which usually is translated into English as On the Nature of Things. Lucretius has been credited with originating the concept of the three-age system that was formalised in 1836 by C. J. Thomsen.
+
+Very little is known about Lucretius's life; the only certainty is that he was either a friend or client of Gaius Memmius, to whom the poem was addressed and dedicated.
+
+De rerum natura was a considerable influence on the Augustan poets, particularly Virgil (in his Aeneid and Georgics, and to a lesser extent on the Eclogues) and Horace. The work was almost lost during the Middle Ages, but was rediscovered in 1417 in a monastery in Germany by Poggio Bracciolini and it played an important role both in the development of atomism (Lucretius was an important influence on Pierre Gassendi) and the efforts of various figures of the Enlightenment era to construct a new Christian humanism. Lucretius's scientific poem On the Nature of Things (c. 60 BC) has a remarkable description of Brownian motion of dust particles in verses 113–140 from Book II. He uses this as a proof of the existence of atoms.
+
+Epicureanism flourished in the Late Hellenistic era and during the Roman era, and many Epicurean communities were established, such as those in Antiochia, Alexandria, Rhodes, and Herculaneum. By the late 3rd century CE Epicureanism all but died out, being opposed by other philosophies (mainly Neoplatonism) that were now in the ascendant. Interest in Epicureanism was resurrected in the Age of Enlightenment and continues in the modern era.")
+
+Quote.create(passage: "The fall of dropping water wears away the Stone.", philosopher: lucretius)
+Quote.create(passage: "What is food to one, is to others bitter poison.", philosopher: lucretius)
+Quote.create(passage: "Though the dungeon, the scourge, and the executioner be absent, the guilty mind can apply the goad and scorch with blows.", philosopher: lucretius)
+Quote.create(passage: "It is great wealth to a soul to live frugally with a contented mind.", philosopher: lucretius)
+Quote.create(passage: "In the midst of the fountain of wit there arises something bitter, which stings in the very flowers.", philosopher: lucretius)
+Quote.create(passage: "The first beginnings of things cannot be distinguished by the eye.", philosopher: lucretius)
